@@ -56,11 +56,11 @@ driver.get(url)
 # 6-xpath 定位
 driver.find_element(By.XPATH, "//form[@name='f']/span/input[@id='kw']").send_keys("python")
 time.sleep(2)
-driver.find_element(By.XPATH, "//form[@name='f']/span/input[@name='百度一下']").click()
+
+driver.find_element(By.XPATH, "//form[@name='f']/span/input[@value='百度一下']").click()
 time.sleep(2)
 
-
-
+print(driver.current_url)
 
 
 

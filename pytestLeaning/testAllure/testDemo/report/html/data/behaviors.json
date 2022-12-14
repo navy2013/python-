@@ -1,0 +1,72 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "购物车",
+    "children" : [ {
+      "name" : "商品展示",
+      "children" : [ {
+        "name" : "test_show",
+        "uid" : "d520684874b8c21d",
+        "parentUid" : "1e5793ce57997129aefb64a267f19f59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1670916954686,
+          "stop" : 1670916954686,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e5793ce57997129aefb64a267f19f59"
+    }, {
+      "name" : "商品添加",
+      "children" : [ {
+        "name" : "test_add",
+        "uid" : "94f500ceacc065c1",
+        "parentUid" : "bf9cef91109c99f0dacb4900bd7417ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670916954688,
+          "stop" : 1670916954689,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf9cef91109c99f0dacb4900bd7417ea"
+    }, {
+      "name" : "商品删除",
+      "children" : [ {
+        "name" : "test_delete",
+        "uid" : "b797af277f92ed61",
+        "parentUid" : "7fc023735eaf09a15477cc94f8686bd6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1670916954714,
+          "stop" : 1670916954714,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7fc023735eaf09a15477cc94f8686bd6"
+    } ],
+    "uid" : "fd6d25784051c66cfc790b8ab183cbee"
+  } ],
+  "name" : "behaviors"
+}

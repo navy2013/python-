@@ -1,0 +1,3 @@
+url,params,method
+http://apis.juhe.cn/mobile/get,"{""phone"":18434897968,""key"":ac527a2b4613d115a0f7362c1994d7c}",post
+http://v.juhe.cn/toutiao/index,"{""type"":""top"",""key"":""50c7dff49882c3bb72900a7799004a8c""}",get
